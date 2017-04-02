@@ -7,7 +7,7 @@
 // ============================================================================
 var express = require("express");
 var app = express();
-var middleware = require("./node_modules/exports/middleware.js");
+var middleware = require("/exports/middleware.js");
 var bodyParser = require("body-parser"); //use body-parser
 var _ = require("underscore"); //use to parse body req as json
 var ip = require("ip");
@@ -22,7 +22,7 @@ var INDEX_PAGE = "/public/index.html";
 // Configuration of Static Resources
 // ============================================================================
 app.use("/public", express.static(__dirname + "/public"));
-app.use("middleware.js", express.static(__dirname + "/node_modules/exports/middleware.js"));
+app.use("middleware.js", express.static(__dirname + "/exports/middleware.js"));
 //source: http://stackoverflow.com/questions/10434001/static-files-with-express-js
 //source: http://stackoverflow.com/questions/22202232/express-has-no-method-configure-error
 
