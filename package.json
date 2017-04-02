@@ -1,0 +1,26 @@
+{
+  "name": "GiftMe",
+  "version": "0.0.0",
+  "description": "GiftMe: cool web application to give gifts and cupons",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeanCarlosChavarriaHughes/giftme.git"
+  },
+  "author": "tekionet",
+  "license": "AGPL-3.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/JeanCarlosChavarriaHughes/giftme/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "ip": "^1.1.5",
+    "underscore": "^1.8.3"
+  }
+}
